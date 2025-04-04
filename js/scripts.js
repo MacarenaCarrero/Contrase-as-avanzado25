@@ -72,11 +72,6 @@ const generatePass = () => {
     newPassword += randomChar;
   }
 
-  newPassword = newPassword
-    .split('')
-    .sort(() => Math.random() - 0.5)
-    .join('');
-
   passwordElement.textContent = newPassword;
 };
 checkbox1Element.addEventListener('change', checkboxInfo);
