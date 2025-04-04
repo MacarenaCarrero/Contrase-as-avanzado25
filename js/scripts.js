@@ -6,6 +6,7 @@ const generatePasswordElement = document.getElementById('generatePassword');
 const rangeElement = document.getElementById('range');
 const lengthPassElement = document.getElementById('lengthPass');
 const passwordElement = document.getElementById('password');
+
 const uppercaseLetters = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
 const lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
 const numbers = '1234567890';
